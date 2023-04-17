@@ -6,11 +6,11 @@ int check_path(char *stdpath, char **path_array, char **token_array);
 char *_strdup(char *str);
 
 /**
- * main - entry point
- * @argc: arg counter
- * @argv: array of args
- * @env: environment
- * Return: int
+ *main - entry point
+ *@argc: arg counter
+ *@argv: array of args
+ *@env: environment
+ *Return: int
  */
 int main(int argc, char **argv, char **env)
 {
@@ -78,11 +78,11 @@ int main(int argc, char **argv, char **env)
 
 
 /**
- * tokenize_string - tokenize a passed in string
- * @str: string to tokenize
- * @delims: deliminators
- * @tokens: the array to save the tokens
- * Return: void
+ *tokenize_string - tokenize a passed in string
+ *@str: string to tokenize
+ *@delims: deliminators
+ *@tokens: the array to save the tokens
+ *Return: void
  */
 void tokenize_string(char *str, char *delims, char **tokens)
 {
@@ -99,11 +99,11 @@ void tokenize_string(char *str, char *delims, char **tokens)
 }
 
 /**
- * check_path - check if the path leads to a system call
- * @stdpath: the path variable to free
- * @path_array: the string array containing the paths
- * @token_array: the string array of tokens
- * Return: int 127
+ *check_path - check if the path leads to a system call
+ *@stdpath: the path variable to free
+ *@path_array: the string array containing the paths
+ *@token_array: the string array of tokens
+ *Return: int 127
  */
 int check_path(char *stdpath, char **path_array, char **token_array)
 {
@@ -130,11 +130,11 @@ int check_path(char *stdpath, char **path_array, char **token_array)
 }
 
 /**
- * create_child - function to create child process
- * @stdpath: the path variable to free
- * @call_path: path of system call
- * @str_arr: array of string
- * Return: int
+ *create_child - function to create child process
+ *@stdpath: the path variable to free
+ *@call_path: path of system call
+ *@str_arr: array of string
+ *Return: int
  */
 int create_child(char *stdpath, char *call_path, char **str_arr)
 {
@@ -165,8 +165,8 @@ int create_child(char *stdpath, char *call_path, char **str_arr)
 
 /**
  * *_strdup - ret ptr to newly allocated mem space
- * @str: string
- * Return: NULL or ptr to dupe string
+ *@str: string
+ *Return: NULL or ptr to dupe string
  */
 char *_strdup(char *str)
 {
