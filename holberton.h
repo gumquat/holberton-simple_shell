@@ -14,8 +14,6 @@
 #include <sys/stat.h>
 
 /* Prototypes */
-/*char **split_string(char *str);*/
-/*char **split_path(char *thePath);*/
 void tokenize_string(char *str, char *delims, char **tokens);
 int create_child(char *stdpath, char *call_path, char **str_arr);
 int check_path(char *stdpath, char **path_array, char **token_array);
