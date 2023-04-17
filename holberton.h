@@ -1,7 +1,7 @@
 #ifndef HOLBERTON_H
 #define HOLBERTON_H
 
-/* Standard Libraries */
+/*Standard Libraries*/
 #include <unistd.h>
 #include <stdio.h>
 #include <sys/types.h>
@@ -13,7 +13,7 @@
 #include <errno.h>
 #include <sys/stat.h>
 
-/* Prototypes */
+/*Prototypes*/
 void tokenize_string(char *str, char *delims, char **tokens);
 int create_child(char *stdpath, char *call_path, char **str_arr);
 int check_path(char *stdpath, char **path_array, char **token_array);
