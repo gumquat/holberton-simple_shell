@@ -1,0 +1,38 @@
+.TH SHELL 1 2023-04-01 LINUX
+.SH NAME
+shell \- Simple Shell
+
+.SH SYNOPSIS
+.B shell
+
+.SH DESCRIPTION
+.B shell
+shell interpretor for linux commands
+
+.SH OPTIONS
+Once all files are compiled, run:
+.br
+$ ./shell
+
+In the command line interpretor basic linux commands can be executed. These commands can be executed with built in options.
+
+.B env -
+Print the current environment.
+
+To exit the program, run:
+.br
+$ exit
+
+.SH FILES
+.TP
+.I /holbertonschool-simple_shell/shell
+
+.SH AUTHOR
+.TP
+github repository \- gumquat/holbertonschool-simple_shell
+authors \- Evan Newman-Chock
+
+.SH SEE ALSO
+.I AHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+.SH BUGS
+plenty im sure as this is incomplete
